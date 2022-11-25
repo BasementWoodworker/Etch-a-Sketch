@@ -1,0 +1,38 @@
+#grid-container {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 800px;
+    justify-content: space-between;
+    border: 2px solid rgb(67, 141, 170);;
+    border-radius: 4px;
+}
+
+.square {
+    width: auto;
+    height: auto;
+    background-color: white;
+    flex: 1 1 50px;
+    border:1px solid lightblue;
+    border-radius: 1px;
+}
+
+.mini-container {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+button {
+    width: auto;
+    font-size: 24px;
+    border: 2px solid rgb(67, 141, 170);
+    color: rgb(67, 141, 170);
+    border-radius: 4px;
+}
+
+#button-container {
+    display: flex;
+    width: 803px;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
